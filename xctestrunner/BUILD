@@ -26,5 +26,6 @@ par_binary(
         ':shared',
         ':simulator',
     ],
-    data = glob(['test_runner/TestProject/**'])
+    data = glob(['test_runner/TestProject/**']),
+    python_version = 'PY2',
 )
